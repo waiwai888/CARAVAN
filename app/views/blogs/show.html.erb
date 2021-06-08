@@ -59,6 +59,8 @@
       <%= image_tag "img/forest.jpg", class:"single-image" %>
       <p class="single-text">
         <%= @blog.body %>
+      </p>
+      <%=link_to "編集", edit_blog_path(@blog) %>
         <!-- body部分 下で変更します -->
         The environment of rain forests is ideal for plants: An estimated<br>
         two-thirds of the world's plant species grow in the rain forest.<br>
