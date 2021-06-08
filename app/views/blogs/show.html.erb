@@ -61,6 +61,7 @@
         <%= @blog.body %>
       </p>
       <%=link_to "編集", edit_blog_path(@blog) %>
+      <%=link_to "削除", blog_path(@blog), method: :delete %>
         <!-- body部分 下で変更します -->
         The environment of rain forests is ideal for plants: An estimated<br>
         two-thirds of the world's plant species grow in the rain forest.<br>
