@@ -6,6 +6,10 @@ class BlogsController < ApplicationController
   end
 
   def new
+    @list = Lists.new
+  end
+  
+  def create
   end
 
   def edit
